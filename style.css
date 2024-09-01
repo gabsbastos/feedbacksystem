@@ -1,0 +1,81 @@
+/* Paleta de cores */
+:root {
+    --gradienteverde: #A9F1DF;
+    --gradienteamarelo: #FFFFC7;
+    --avocado: #C6EA8D;
+    --papaya: #FFE98A;
+    --darkpapaya: #c7aa27;
+    --azulesverdeadologo: #17a3cf;
+    --amarelologo: #cfad1b;
+    --azulceulogo: #55eaf8;
+    --azulfortelogo: #0c6fff;
+    --cocoa: #8C523B;
+    --peach: #EEAC7E;
+}
+/* Fonte da página */
+body {
+    font-family: "Merriweather", serif;
+     font-size: 16px;
+     color: var(--moss);
+      }
+
+/* Estilo para o cabeçalho (menu de navegação) */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #A9F1DF, #FFFFC7);
+    padding: 10px 0;
+    padding-top: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/* Estilo para os links do menu */
+.navbar a {
+    color: var(--darkpapaya);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilo para os links quando o mouse passa por cima */
+.navbar a:hover {
+    background-color: var(--papaya);
+    border-radius: 20px;
+}
+
+/* Logotipo na navbar */
+.navbar .logo {
+    margin-right: auto; /* Alinha a logo à esquerda */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px; /* Ajuste da altura da logo */
+    width: auto;
+}
+/* Texto da logotipo */
+.logo-text {
+    font-size: 50px;
+    font-family: "Kalam", cursive;
+    color: var(--azulesverdeadologo);
+    text-shadow: 1px 1px 1px var(--azulceulogo);
+}
+
+/* Estilo para o conteúdo abaixo do menu */
+.content {
+    padding: 150px 70px; /* Espaço para não cobrir o conteúdo pelo menu */
+}
+
+/* Exemplo de conteúdo */
+.section {
+    margin-bottom: 70px;
+}
