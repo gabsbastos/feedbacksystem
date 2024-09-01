@@ -79,3 +79,6 @@ body {
 .section {
     margin-bottom: 70px;
 }
+@media (max-width:712px) {
+    .navbar li {display: none;}
+}
